@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.min.js"></script>
+		<title>Time tables</title>
+	</head>
+	<body>
+		
+        <canvas id="c"></canvas>
+        Current factor:
+        <input id="factor" onchange="setFactor()" type="number" value="0">
+        Speed:
+        <input id="speed" onchange="setSpeed()" type="number" value="0.1">
+        <button onclick="play()" style="cursor:pointer;">Play</button>
+        <button onclick="stop()" style="cursor:pointer;">Stop</button>
+        <script src="index.js"></script>
+	</body>
+</html>
