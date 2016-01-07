@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "description": "Missingdays blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missingdays/blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "missingdays",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missingdays/blog/issues"
+  },
+  "homepage": "https://github.com/missingdays/blog#readme",
+  "dependencies": {
+    "benchmark": "^2.0.0",
+    "microtime": "^2.0.0"
+  }
+}
